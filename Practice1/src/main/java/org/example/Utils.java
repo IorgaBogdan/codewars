@@ -8,5 +8,15 @@ public class Utils {
             return "Odd";
         }
     }
+
+    /**
+     * Converts a number into a String
+     *
+     * @param num unconverted number
+     * @return converted String
+     */
+    public static String numberToString(int num) {
+        return Integer.toString(num);
+    }
 }
 
